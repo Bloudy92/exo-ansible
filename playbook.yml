@@ -1,0 +1,6 @@
+---
+- name: "Ce playbook installe LAMP et Wordpress"
+  hosts: mon-groupe
+  roles:
+    - role: wordpress
+      # when: cms == "wordpress"

@@ -1,0 +1,2 @@
+[mon-groupe]
+debian ansible_host=192.168.8.131 ansible_connection=ssh ansible_ssh_username=tgu ansible_ssh_password=azerty cms=wordpress host_name=blog.tgu.fr ansible_become_method=su ansible_become_password=azerty
